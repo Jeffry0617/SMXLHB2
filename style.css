@@ -1,0 +1,39 @@
+<style>
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  touch-action: manipulation; /* 防止双击缩放 */
+}
+
+#musicBtn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+	  z-index: 999;
+      font-size: 16px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      border: 1px solid #fff;
+      backdrop-filter: blur(4px);
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    #musicBtn:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+	
+	canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+</style>
